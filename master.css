@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Open+Sans:400,600,700&display=swap');
+
+body {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand, .navbar-nrand:hover {
+  color: #fefefe;
+  font-family: 'Noto Serif', serif;
+  font-size: 24px;
+}
+section {
+  min-height: 300px;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+
+h5 {
+  font-family: 'Noto Serif', serif;
+}
+
+a {
+  color: #108cb3;
+}
+
+a:hover{
+  color: #50c4e8;
+}
+.my-image {
+  height: 250px;
+	border-radius: 100%;
+	border: solid #08141d 2px;
+}
+
+.section-title {
+  border-bottom: 2px solid;
+  width: fit-content;
+}
+
+.navbar {
+  background-color: #08141d;
+}
+.nav > a {
+  color: #fefefe;
+}
+
+.nav-link.active, .nav-link:hover {
+  color: #fefefe;
+  background-color: inherit;
+  border-bottom: 3px solid #108cb3;
+  border-radius: 0;
+}
+
+.nav-link {
+  margin: 0 0.25rem;
+}
+/* .nav-link:hover {
+  margin: 0;
+} */
+
+.bg-blue {
+  background-color: #08141d;
+  color: #f8f9fb;
+}
+
+.jtrone-bg {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.9)
+    ), url('files/bg.jpg') center center no-repeat;
+  background-color: #08141d;
+  background-size: cover;
+  color: #fff;
+}
+#skills {
+  color: #08141d;
+  background-color: #f8f9fb;
+}
+
+.skill-details {
+  font-weight: 600;
+  color: #254358;
+}
+
+.contact-text {
+  line-height: 1.75rem;
+}
